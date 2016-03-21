@@ -1,0 +1,16 @@
+//- All relavent slider code exists within this file
+mixin slider(slides)
+  .crazy-slider
+    each slide in slides
+      img(src=slide.url)
+
+append styles
+  link(rel="stylesheet" href="./css/crazy-slider.css")
+
+append scripts
+  script(type="text/javascript" src="./js/crazy-slider.js")
+  script.
+    $(window).load(function() {
+        $('#crazy-slider').crazySlider();
+    });
+

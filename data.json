@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "This is a title",
+    "slides": [
+      {
+        "url":"http://foo.com/image.jpg"
+      }
+    ]
+  }
+}

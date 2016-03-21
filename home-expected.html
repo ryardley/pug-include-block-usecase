@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a title</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/crazy-slider.css">
+  </head>
+  <body>
+    <div class="header">This is a header</div>
+    <div class="row">
+      <div class="columns large-12 screenlayout">
+        <div class="crazy-slider"><img src="http://foo.com/image.jpg"/>
+        </div>
+      </div>
+    </div>
+    <div class="rest">Rest of page</div>
+    <footer>This is a footer</footer>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/crazy-slider.js"></script>
+    <script>
+      $(window).load(function() {
+          $('#crazy-slider').crazySlider();
+      });
+    </script>
+  </body>
+</html>

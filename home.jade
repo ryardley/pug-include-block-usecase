@@ -1,0 +1,9 @@
+extends ./layout.jade
+include ./slider.jade
+
+block main
+  .row
+    .columns.large-12.screenlayout
+      +slider(page.slides)
+
+  include ./restofpage.jade

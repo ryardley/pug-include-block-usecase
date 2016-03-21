@@ -1,0 +1,22 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= page.title
+
+    block styles
+      link(rel='stylesheet', href='./css/styles.css')
+  body
+    include ./header.jade
+
+    block main
+
+    include ./footer.jade
+
+    block scripts
+      script(type='text/javascript' src='./js/jquery.js')
+      script(type='text/javascript' src='./js/main.js')
+
+
